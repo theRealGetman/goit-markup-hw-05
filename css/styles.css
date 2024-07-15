@@ -740,6 +740,8 @@ button {
   resize: none;
   height: 120px;
   padding: 8px 16px;
+
+  color: var(--navy-blue-modal);
 }
 
 .checkbox {
@@ -801,7 +803,7 @@ button {
 .form-input[type="checkbox"]:checked + .form-label > .form-checkbox {
   background-color: var(--ocean);
   border: none;
-  fill: var(--white);
+  fill: var(--cloud);
 }
 
 .form-label-link {
@@ -813,6 +815,7 @@ button {
 
 .modal-submit-btn {
   min-width: 169px;
+  display: block;
 }
 
 /* #endregion */
